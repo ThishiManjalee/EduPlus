@@ -526,8 +526,8 @@ try{
     
 //update data jtable methode  
     private void jButtonUpdateLocationActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonUpdateLocationActionPerformed
- // TODO add your handling code here:
-           //Call Load Data mthode
+ 
+           //Call Load Data method
             LoadDataUpdate();
             
             //Same With Location Variables

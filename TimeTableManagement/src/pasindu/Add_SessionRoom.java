@@ -46,7 +46,7 @@ public final class Add_SessionRoom extends javax.swing.JFrame {
     }
 
     void Roomcombox() {
-        // TODO add your handling code here:
+     
         try {
             Connection cn = connection.DB_Connect.ConnecrDB();
 

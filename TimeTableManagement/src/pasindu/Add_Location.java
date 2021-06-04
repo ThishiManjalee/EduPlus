@@ -379,7 +379,7 @@ public final class Add_Location extends javax.swing.JFrame {
     
 //Button Clicked After All the feilds are clean   
     private void jButtonClearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonClearActionPerformed
-        // TODO add your handling code here:
+       
         
           
         jTextFieldRoomName.setText("");
@@ -513,7 +513,7 @@ Manage_Location al1;
     }//GEN-LAST:event_jTextFieldCapacityKeyTyped
 
 
-        
+  //form Validation      
  public void Validation(){
     if(jTextFieldBuildingName.getText().trim().isEmpty() && jTextFieldRoomName.getText().trim().isEmpty() && jTextFieldCapacity.getText().trim().isEmpty() && buttonGroup1.getSelection()==null){
             JOptionPane.showMessageDialog(null, "Fields are Emplty");

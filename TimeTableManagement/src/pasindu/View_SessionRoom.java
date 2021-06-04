@@ -35,7 +35,7 @@ public final class View_SessionRoom extends javax.swing.JFrame {
         hidesize();
 
     }
-
+//window hidden size setting
     void hidesize(){
   
       setSize(1400, 820);
@@ -44,6 +44,7 @@ public final class View_SessionRoom extends javax.swing.JFrame {
      
   
   }
+//jtable column width setting
       void jtableColumnWidth(){
  
         jTable1.setAutoResizeMode( JTable.AUTO_RESIZE_OFF );
