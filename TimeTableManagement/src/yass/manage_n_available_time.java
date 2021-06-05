@@ -112,7 +112,7 @@ public final class manage_n_available_time extends javax.swing.JFrame {
  
   }
   void sessioncombox(){
-      // TODO add your handling code here:
+      
           try {
                  Connection cn=connection.DB_Connect.ConnecrDB();
             
@@ -143,7 +143,7 @@ public final class manage_n_available_time extends javax.swing.JFrame {
                   
             
    void lecturercombox(){
-      // TODO add your handling code here:
+      
           try {
                  Connection cn=connection.DB_Connect.ConnecrDB();
             
@@ -197,7 +197,7 @@ public final class manage_n_available_time extends javax.swing.JFrame {
          
     }
      void Groupcombox(){
-      // TODO add your handling code here:
+     
           try {
                  Connection cn=connection.DB_Connect.ConnecrDB();
             
@@ -678,7 +678,7 @@ public final class manage_n_available_time extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 add_n_avalable_time anot;
     private void AddNottomeClickActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AddNottomeClickActionPerformed
-        // TODO add your handling code here:
+        
        
          
         if (anot == null) {
@@ -719,7 +719,7 @@ manage_n_available_time mnota;
     }//GEN-LAST:event_BackClickActionPerformed
 
     private void jButtonClearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonClearActionPerformed
-        // TODO add your handling code here:
+        
          jComboBoxLecturer.setSelectedIndex(0);
         jComboBoxRoom.setSelectedIndex(0);
         jComboBoxGroup.setSelectedIndex(0);

@@ -504,8 +504,7 @@ void LoadDataUpdate(){
     }// </editor-fold>//GEN-END:initComponents
 //Update Data
     private void jButtonUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonUpdateActionPerformed
-        // TODO add your handling code here:
-
+        
                  LoadDataUpdate(); 
             
                 //call Open Close identfy Validation

@@ -58,7 +58,7 @@ public final class add_n_avalable_time extends javax.swing.JFrame {
   }   
             
   void sessioncombox(){
-      // TODO add your handling code here:
+      
           try {
                  Connection cn=connection.DB_Connect.ConnecrDB();
             
@@ -114,7 +114,7 @@ public final class add_n_avalable_time extends javax.swing.JFrame {
          
     }
       void Roomcombox(){
-      // TODO add your handling code here:
+     
           try {
                  Connection cn=connection.DB_Connect.ConnecrDB();
             
@@ -168,7 +168,7 @@ public final class add_n_avalable_time extends javax.swing.JFrame {
          
     }
        void SubGroupcombox(){
-      // TODO add your handling code here:
+      
           try {
                  Connection cn=connection.DB_Connect.ConnecrDB();
             

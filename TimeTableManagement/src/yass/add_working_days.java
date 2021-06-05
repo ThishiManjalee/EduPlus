@@ -444,8 +444,7 @@ void maxsizehidden(){
     
 //Clear All the Feileds And Messages    
     private void jButtonClearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonClearActionPerformed
-        // TODO add your handling code here:
-
+        
         jCheckBoxMon.setSelected(false);
         ie.setSelected(false);
         jCheckBoxWen.setSelected(false);
@@ -484,7 +483,7 @@ void maxsizehidden(){
     }//GEN-LAST:event_jButtonSubmitActionPerformed
 
     private void jCheckBoxSatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxSatActionPerformed
-        // TODO add your handling code here:
+        
         day6="Open";
     }//GEN-LAST:event_jCheckBoxSatActionPerformed
 
