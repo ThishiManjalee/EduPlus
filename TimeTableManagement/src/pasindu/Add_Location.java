@@ -395,8 +395,7 @@ public final class Add_Location extends javax.swing.JFrame {
     }//GEN-LAST:event_jButtonClearActionPerformed
 Manage_Location al1;
     private void ManageLocationClickActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ManageLocationClickActionPerformed
-        // TODO add your handling code here:
-      
+        
         if (al1 == null) {
             al1 = new Manage_Location();
         }
@@ -406,7 +405,7 @@ Manage_Location al1;
     }//GEN-LAST:event_ManageLocationClickActionPerformed
 
     private void BackClickActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BackClickActionPerformed
-        // TODO add your handling code here:
+        
          if (al1 == null) {
             al1 = new Manage_Location();
         }
@@ -418,7 +417,7 @@ Manage_Location al1;
     }//GEN-LAST:event_BackClickActionPerformed
 
     private void DashboardClickActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DashboardClickActionPerformed
-        // TODO add your handling code here:
+       
       
         group_implmentation.loging.dashb.setVisible(true);
         this.dispose();
@@ -443,19 +442,19 @@ Manage_Location al1;
     }//GEN-LAST:event_jTextFieldCapacityKeyReleased
 
     private void LecturerAction(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LecturerAction
-        // TODO add your handling code here:
+        //equle room type
        room_type= "Lecturer_Hall";
     }//GEN-LAST:event_LecturerAction
 
 //feilds rest functions
     private void jTextFieldBuildingNameKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldBuildingNameKeyReleased
-        // TODO add your handling code here:
+       
           erroBuildingName.setText(null);
 
     }//GEN-LAST:event_jTextFieldBuildingNameKeyReleased
 
     private void jTextFieldRoomNameKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldRoomNameKeyReleased
-        // TODO add your handling code here:
+       
           erroRoomName.setText(null);
 
     }//GEN-LAST:event_jTextFieldRoomNameKeyReleased
