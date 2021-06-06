@@ -61,18 +61,7 @@ void negativeSpinnerStop(){
 //Retive All the Acadamic year semester Data to Combobox
      void AcadamicYearSemcombox(){
       // TODO add your handling code here:
-          try {
-                 Connection cn=connection.DB_Connect.ConnecrDB();
-            
-                 String sql ="select DISTINCT semester from acadamic_sem_year";
-                 Statement pst=cn.createStatement();
-                 ResultSet rs=pst.executeQuery(sql);
-                 while(rs.next()){
-                 
-                     String yearsem=rs.getString("semester");
-                     jComboBoxAcadaicYearSem.addItem(yearsem);
-                 
-                 }
+         
 //Connection Close                 
                  pst.close();
                  rs.close();
@@ -90,17 +79,7 @@ void negativeSpinnerStop(){
      void Programmecombox(){
       // TODO add your handling code here:
           try {
-                 Connection cn=connection.DB_Connect.ConnecrDB();
-            
-                 String sql ="select DISTINCT name from programme";
-                 Statement pst=cn.createStatement();
-                 ResultSet rs=pst.executeQuery(sql);
-                 while(rs.next()){
-                 
-                     String yearsem=rs.getString("name");
-                     jComboBoxProgramme.addItem(yearsem);
-                 
-                 }
+          
 //Connection Close
                 pst.close();
                 rs.close();
