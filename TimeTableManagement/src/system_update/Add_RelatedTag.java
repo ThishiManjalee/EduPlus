@@ -240,7 +240,7 @@ public final class Add_RelatedTag extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 menu_updates mu;
     private void jButtonMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonMenuActionPerformed
-        // TODO add your handling code here:
+    
       try {
             if (mu == null) {
                 mu = new menu_updates();
@@ -338,7 +338,7 @@ Add_RelatedTag ar;
     }//GEN-LAST:event_jButtonAddRelatedTagActionPerformed
 
     private void jButtonBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonBackActionPerformed
-        // TODO add your handling code here
+        
                     try {
             if (mr == null) {
                 mr = new manage_RelatedTag();

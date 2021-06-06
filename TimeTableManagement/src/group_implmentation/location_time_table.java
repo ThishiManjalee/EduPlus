@@ -67,7 +67,7 @@ public final class location_time_table extends javax.swing.JFrame {
  
  } 
      void locationcombox(){
-      // TODO add your handling code here:
+     
           try {
                  Connection cn=connection.DB_Connect.ConnecrDB();
             
@@ -345,8 +345,7 @@ student_time_table lo3;
     }//GEN-LAST:event_StudentTimetableClickActionPerformed
 location_time_table lo4;
     private void LocationTimetableClickedActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LocationTimetableClickedActionPerformed
-        // TODO add your handling code here:
-         
+        
         if (lo4 == null) {
             lo4 = new location_time_table();
         }
@@ -356,8 +355,7 @@ location_time_table lo4;
     }//GEN-LAST:event_LocationTimetableClickedActionPerformed
 
     private void jButtonPrintActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonPrintActionPerformed
-        // TODO add your handling code here:
-          // TODO add your handling code here:
+       
         MessageFormat header =new MessageFormat("Report Print");
         MessageFormat footer =new MessageFormat("Page{0,number,integer}");
         
@@ -380,7 +378,7 @@ location_time_table lo4;
     }//GEN-LAST:event_jButtonPrintActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+        
         
         
           TableModel df =  location_time_table.getModel();

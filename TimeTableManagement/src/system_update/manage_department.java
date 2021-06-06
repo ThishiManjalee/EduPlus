@@ -483,7 +483,7 @@ manage_department md;
     }//GEN-LAST:event_ManageDepartmentClickActionPerformed
 
     private void BackClickActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BackClickActionPerformed
-        // TODO add your handling code here:
+        
       try {
             if (mu == null) {
                 mu = new menu_updates();
@@ -497,16 +497,16 @@ manage_department md;
     }//GEN-LAST:event_BackClickActionPerformed
 
     private void jScrollPane1AncestorAdded(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_jScrollPane1AncestorAdded
-        // TODO add your handling code here:
+       
         displaytable();
     }//GEN-LAST:event_jScrollPane1AncestorAdded
 
     private void txtfacultynameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtfacultynameActionPerformed
-        // TODO add your handling code here:
+       
     }//GEN-LAST:event_txtfacultynameActionPerformed
 
     private void jTable1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTable1MouseClicked
-        // TODO add your handling code here:
+        
   int i=jTable1.getSelectedRow();
            
             TableModel model=jTable1.getModel();

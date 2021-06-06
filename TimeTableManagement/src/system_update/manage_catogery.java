@@ -407,7 +407,7 @@ manage_catogery mc;
     }//GEN-LAST:event_ManageCatogeryClickActionPerformed
 
     private void BackClickActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BackClickActionPerformed
-        // TODO add your handling code here:
+       
       try {
             if (mu == null) {
                 mu = new menu_updates();
@@ -460,7 +460,7 @@ try{
     
     
     private void UpdateButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UpdateButtonActionPerformed
-        // TODO add your handling code here:
+       
             try{
                 Connection cn=connection.DB_Connect.ConnecrDB();
 
@@ -498,7 +498,7 @@ try{
     }//GEN-LAST:event_UpdateButtonActionPerformed
 
     private void DeleteButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DeleteButtonActionPerformed
-        // TODO add your handling code here:
+      
           
             Connection cn=connection.DB_Connect.ConnecrDB();
 

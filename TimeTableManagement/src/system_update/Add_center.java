@@ -313,7 +313,7 @@ manage_center mc;
 
     //Insert Data into database
     private void SaveButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SaveButtonActionPerformed
-        // TODO add your handling code here:
+      
           try{
            Connection cn=connection.DB_Connect.ConnecrDB();
             

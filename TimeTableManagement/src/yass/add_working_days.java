@@ -398,46 +398,46 @@ void maxsizehidden(){
     }// </editor-fold>//GEN-END:initComponents
 
     private void ManageWorkingDaysButtinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ManageWorkingDaysButtinActionPerformed
-        // TODO add your handling code here:
+        
         manage_working_days mwd = new manage_working_days();
         mwd.show();
         dispose();
     }//GEN-LAST:event_ManageWorkingDaysButtinActionPerformed
 
     private void BackButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BackButtonActionPerformed
-        // TODO add your handling code here:
+       
         manage_working_days da =new manage_working_days();
         da.show();
         dispose();
     }//GEN-LAST:event_BackButtonActionPerformed
 
     private void jCheckBoxSunActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxSunActionPerformed
-        // TODO add your handling code here:
+       
         day7="Open";
     }//GEN-LAST:event_jCheckBoxSunActionPerformed
 
     private void jCheckBoxFriActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxFriActionPerformed
-        // TODO add your handling code here:
+        
         day5="Open";
     }//GEN-LAST:event_jCheckBoxFriActionPerformed
 
     private void jCheckBoxThuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxThuActionPerformed
-        // TODO add your handling code here:
+       
         day2="Open";
     }//GEN-LAST:event_jCheckBoxThuActionPerformed
 
     private void jCheckBoxWenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxWenActionPerformed
-        // TODO add your handling code here:
+       
         day3="Open";
     }//GEN-LAST:event_jCheckBoxWenActionPerformed
 
     private void ieActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ieActionPerformed
-        // TODO add your handling code here:
+        
         day4="Open";
     }//GEN-LAST:event_ieActionPerformed
 
     private void jCheckBoxMonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxMonActionPerformed
-        // TODO add your handling code here:
+        
         day1="Open";
     }//GEN-LAST:event_jCheckBoxMonActionPerformed
 
@@ -459,7 +459,6 @@ void maxsizehidden(){
     }//GEN-LAST:event_jButtonClearActionPerformed
   
     private void jButtonSubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSubmitActionPerformed
-        // TODO add your handling code here:
        
             String WorkingDays=jSpinnerWorkingdays.getValue().toString();
             
@@ -484,7 +483,7 @@ void maxsizehidden(){
     }//GEN-LAST:event_jButtonSubmitActionPerformed
 
     private void jCheckBoxSatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxSatActionPerformed
-        // TODO add your handling code here:
+        
         day6="Open";
     }//GEN-LAST:event_jCheckBoxSatActionPerformed
 

@@ -64,7 +64,7 @@ public final class student_time_table extends javax.swing.JFrame {
  } 
    
     void studentcombox(){
-      // TODO add your handling code here:
+      
           try {
                  Connection cn=connection.DB_Connect.ConnecrDB();
             
@@ -358,8 +358,7 @@ location_time_table st4;
     }//GEN-LAST:event_LocationTimetableClickActionPerformed
 
     private void jButtonPrintActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonPrintActionPerformed
-        // TODO add your handling code here:
-          // TODO add your handling code here:
+        
         MessageFormat header =new MessageFormat("Report Print");
         MessageFormat footer =new MessageFormat("Page{0,number,integer}");
         
@@ -381,7 +380,7 @@ location_time_table st4;
     }//GEN-LAST:event_jButtonPrintActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+        
             
           TableModel df =  Student_Timetable.getModel();
 
